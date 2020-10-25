@@ -1,0 +1,84 @@
+commit 0b4109a465c621dd6884ff11f3dc078acbb141f0
+Author: Eve E Cho <eec5213@cs.rit.edu>
+Date:   Thu Feb 27 22:36:33 2020 -0500
+
+    All things run smoothly: error checks all work, documentation is clean, etc... Final commit
+
+commit f23689ad35bdc7b4478ff76d8bb7b879c4de9f2e
+Author: Eve E Cho <eec5213@cs.rit.edu>
+Date:   Thu Feb 27 22:06:57 2020 -0500
+
+    Everything is running fine! Just doing last minute formatting checks, tests, and documentation cleanup
+
+commit e7d093fb806646ed93e24fc80349e9951fb28554
+Author: Eve E Cho <eec5213@cs.rit.edu>
+Date:   Thu Feb 27 19:43:33 2020 -0500
+
+    No more error when taking inputs from the menu, but relateToInt() is still struggling to work when taking more than 2 generations from the command line. Otherwise, all error checks, documentation, and other functions complete
+
+commit e0790a36389c0acf1c3a824aff07850f24b3c892
+Author: Eve E Cho <eec5213@cs.rit.edu>
+Date:   Thu Feb 27 19:24:37 2020 -0500
+
+    Nothing has changed, but note: relateToInt() only seems to work for up to 2 generations of relations, and any longer entries are read as invalid strings for some reason
+
+commit bc59d1eeeafe6afd6a27c0e3eb909d6423fea1d7
+Author: Eve E Cho <eec5213@cs.rit.edu>
+Date:   Thu Feb 27 19:09:54 2020 -0500
+
+    Documentation and all other functions are cleaned up. relateToInt() is still behaving strange but only need to fix that one it seems...
+
+commit 212d47da5acbf6ddc05f053cd49c45f05edb6bcf
+Author: Eve E Cho <eec5213@cs.rit.edu>
+Date:   Thu Feb 27 18:22:10 2020 -0500
+
+    relateToInt() is still a bit finnicky, but otherwise all functions appear to be working properly. Need to check if I need to add any more error checking. Need to delete checkpoint testing print lines as well as clean up any messy documentation
+
+commit 7741999bb1bb478d51f8aa040ed36f9cd09bf8b5
+Author: Eve E Cho <eec5213@cs.rit.edu>
+Date:   Thu Feb 27 16:46:31 2020 -0500
+
+    I realize while working on command line arguments that the relate() function was behaving a bit finnicky and kept indexing the binary values in the reverse order so I fixed that. relateToBi() is still unreliable so I need to fix that too. Continuing working on command line handling and will implement error checking as I go. Also need to remember to add documentation for new functions I added.
+
+commit e8e8db2eed76ef4a1ec0bb0c47b37d4073033bc2
+Author: Eve E Cho <eec5213@cs.rit.edu>
+Date:   Thu Feb 27 07:46:42 2020 -0500
+
+    Prompts 1, 2, 3, and 5 are running appropriately. Documentation is a little bit neater. Need to implement prompt 4 and handle command line argument cases
+
+commit 924ec2f0b2e16e56b7b32fb4f869a7d69a072f23
+Author: Eve E Cho <eec5213@cs.rit.edu>
+Date:   Wed Feb 26 21:59:33 2020 -0500
+
+    Fixed an error in which the menu prompt kept on double printing in output and stderr "Unknown Operation" message kept on persistently printing no matter what input
+
+commit e1001875b36d2c639b857a5fe02adcb570ada9c4
+Author: Eve E Cho <eec5213@cs.rit.edu>
+Date:   Wed Feb 26 20:38:54 2020 -0500
+
+    Functions to convert to and from decimal/binary written and implemented. Menu printing has been implemented in a separate function to declutter the main function.
+
+commit a381e2dfe1f2a5c780c4ddc98b4400b86149c688
+Author: Eve E Cho <eec5213@cs.rit.edu>
+Date:   Wed Feb 26 14:46:49 2020 -0500
+
+    Global variable input[] deleted, and documentation for each function added. Will work on functions individually from here on out
+
+commit 07c7cfd4c3bb93e3e5e4b72cde73808a023cd01d
+Author: Eve E Cho <eec5213@cs.rit.edu>
+Date:   Wed Feb 26 14:33:02 2020 -0500
+
+    Runs without errors. Need to have the program actually do stuff now...
+
+commit b3c3ad5231fef25b19e8ee048ef264b067fcd1c2
+Author: Eve E Cho <eec5213@cs.rit.edu>
+Date:   Wed Feb 26 14:15:45 2020 -0500
+
+    input[] changed to a global variable, and minimal code written out for all functions. Main function is split into two components: loop component in the case of no command line arguments, and a one-time run component in the case there are command line arguments.
+
+commit 231f346359bdc547999f205b39994d409471dc23
+Author: Eve E Cho <eec5213@cs.rit.edu>
+Date:   Wed Feb 26 13:37:32 2020 -0500
+
+    Initial Commit: stubbed out code and basic functions having to do with main()
+
